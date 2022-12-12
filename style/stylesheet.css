@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url(../img/main/background.gif);
+    background-image: url(../img/main/background2.png);
     color: whitesmoke;
 }
 
@@ -21,7 +21,7 @@ body {
   }
 
 .container {
-    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.918);
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -246,4 +246,18 @@ ul{
 
 .foto-categoria2:hover {
     width: 55%;
+}
+
+.container2 {
+    display: flex;
+    background-color: aqua;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+div:empty {
+    height: 400px;
+    background-color: black;
 }
