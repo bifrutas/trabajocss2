@@ -285,6 +285,10 @@ div:empty{
     
 }
 
+a[target]{
+    color:green;
+  }
+
 ol li:nth-child(odd) {
     color:green;
 }
