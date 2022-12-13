@@ -284,3 +284,20 @@ div:empty{
     margin:0;
     
 }
+
+ol li:nth-child(odd) {
+    color:green;
+}
+
+ol li:nth-child(even) {
+    color:purple;
+}
+
+ol li:first-child {
+    color:green;
+
+}
+
+ol li:last-child {
+    color: orangered;
+}
