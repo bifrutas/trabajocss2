@@ -76,13 +76,13 @@ body {
     font-size: 30px;
 }
 
-nav a {
+a {
     color:cornflowerblue;
     transition: color 0.2s;
     
 }
 
-nav a:hover {
+a:hover {
     color:lightskyblue;
 }
 
@@ -316,4 +316,24 @@ a[href="#"] {
 
 .noche {
     color:purple;
+}
+
+.dia-box {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    justify-content:center;
+    align-items: stretch;
+}
+
+.dia-box2 {
+    background-color: red;
+    width: 65%;
+    padding:5px;
+}
+
+.dia-box3 {
+    background-color: aqua;
+    width: 25%;
+    padding:5px;
 }
