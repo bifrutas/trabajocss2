@@ -74,24 +74,14 @@ body {
     font-size: 30px;
 }
 
-<<<<<<< HEAD
-a {
-    color:cornflowerblue;
-=======
 nav a {
     color: cornflowerblue;
->>>>>>> c607f3d7a1ccbecbe2ee7d7b4194a3d95a7b6307
     transition: color 0.2s;
 
 }
 
-<<<<<<< HEAD
-a:hover {
-    color:lightskyblue;
-=======
 nav a:hover {
     color: lightskyblue;
->>>>>>> c607f3d7a1ccbecbe2ee7d7b4194a3d95a7b6307
 }
 
 
