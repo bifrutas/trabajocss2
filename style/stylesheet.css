@@ -284,3 +284,7 @@ div:empty{
     margin:0;
     
 }
+
+a[target]{
+    color:green;
+  }
