@@ -258,6 +258,7 @@ ul{
 }
 
 div:empty {
-    height: 400px;
+    height: 200px;
+    width: 100%;
     background-color: black;
 }
