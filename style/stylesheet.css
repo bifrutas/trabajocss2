@@ -76,13 +76,13 @@ body {
     font-size: 30px;
 }
 
-a {
+nav a {
     color:cornflowerblue;
     transition: color 0.2s;
     
 }
 
-a:hover {
+nav a:hover {
     color:lightskyblue;
 }
 
@@ -289,19 +289,31 @@ a[target]{
     color:green;
   }
 
-ol li:nth-child(odd) {
-    color:green;
+ol li:nth-child(odd), ol li:nth-child(odd)  {
+    color:greenyellow;
 }
 
-ol li:nth-child(even) {
+ol li:nth-child(even),ol li:nth-child(even).noche{
     color:purple;
 }
 
-ol li:first-child {
+ol li:first-child{
     color:green;
 
 }
 
 ol li:last-child {
     color: orangered;
+}
+
+a[href="#"] {
+    color:red
+}
+
+.dia {
+    color:green;
+}
+
+.noche {
+    color:purple;
 }
