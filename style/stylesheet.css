@@ -250,14 +250,31 @@ ul{
 
 .container2 {
     display: flex;
-    background-color: aqua;
+    background-color: rgba(24, 24, 24, 0.918);
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    z-index: 1;
+    padding: 1%;
+}
+
+.div-mapas {
+    width: 100%;
+}
+
+.mapas-cont {
+
 }
 
 div:empty {
-    height: 400px;
-    background-color: black;
+    height: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.info1 {
+    width: 60%;
+}
+
+.div-mapas h1 {
+    margin:0;
+    
 }
