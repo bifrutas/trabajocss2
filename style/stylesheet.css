@@ -305,3 +305,9 @@ ol li:first-child {
 ol li:last-child {
     color: orangered;
 }
+
+
+#contenido td:nth-of-type(odd) {
+    text-decoration:white;
+    font-stretch: condensed;
+  }
