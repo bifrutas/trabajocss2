@@ -261,3 +261,7 @@ div:empty {
     height: 400px;
     background-color: black;
 }
+
+.texto-descripcion::first-letter{
+    font-size:1.5rem;
+}
